@@ -65,7 +65,7 @@ Since the research question is both relational (assessing impact) and comparativ
 
 * **Primary Response (Dependent) Variable:** `CDRSUM` (acting as the quantitative measure of dementia severity).
 * **Explanatory (Independent/Predictor) Variables:** 
-  * *Continuous Predictors:* `AGE`, `NACCBMI`, `SMOKYRS`, and all neuroimaging metrics (`*_GVOL`, `*_AVGTH`).
+  * *Continuous Predictors:* `NACCAGE`, `NACCBMI`, `SMOKYRS`, and all neuroimaging metrics (`*_GVOL`, `*_AVGTH`).
   * *Categorical Predictors (Secondary Grouping Variables):* `HYPERTEN`, `DIABETES`, `DIABTYPE`, `CBSTROKE`, `NACCGDS`, `TOBAC100`, `NACCAPOE`. These act as covariates in regression models and grouping variables during Exploratory Data Analysis (EDA).
 * **Primary Grouping / Comparative Variables:** 
   * `SEX`: The explicit grouping variable to evaluate statistical differences in dementia severity between males and females.
