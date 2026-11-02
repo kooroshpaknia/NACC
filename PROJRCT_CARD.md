@@ -54,7 +54,7 @@ For detailed information regarding the official data source, required files, acq
 
 ## 5. Main Variables and Measurement Scales
 * **Identifier:** `NACCID`
-* **Continuous Quantitative:** `CDRSUM` (Primary Response), `AGE`, `NACCBMI`, `LH_ENTORHINAL_GVOL`, `RH_ENTORHINAL_GVOL`, `LH_PARAHIPPOCAMPAL_GVOL`, `RH_PARAHIPPOCAMPAL_GVOL`, `LH_ENTORHINAL_AVGTH`, `RH_ENTORHINAL_AVGTH`, `LH_PARAHIPPOCAMPAL_AVGTH`, `RH_PARAHIPPOCAMPAL_AVGTH`.
+* **Continuous Quantitative:** `CDRSUM` (Primary Response), `NACCAGE`, `NACCBMI`, `LH_ENTORHINAL_GVOL`, `RH_ENTORHINAL_GVOL`, `LH_PARAHIPPOCAMPAL_GVOL`, `RH_PARAHIPPOCAMPAL_GVOL`, `LH_ENTORHINAL_AVGTH`, `RH_ENTORHINAL_AVGTH`, `LH_PARAHIPPOCAMPAL_AVGTH`, `RH_PARAHIPPOCAMPAL_AVGTH`.
 * **Discrete Quantitative:** `EDUC`, `NACCGDS`, `SMOKYRS`.
 * **Ordinal:** `NACCUDSD`, `CDRGLOB`.
 * **Nominal:** `NACCAPOE`, `HYPERTEN`, `DIABETES`, `DIABTYPE`, `CBSTROKE`.
