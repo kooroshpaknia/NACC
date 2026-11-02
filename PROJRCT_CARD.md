@@ -23,7 +23,7 @@ For detailed information regarding the official data source, required files, acq
 
 ### D. Demographics & Baseline Characteristics
 * `SEX`
-* `AGE`
+* `NACCAGE`
 * `EDUC` (Years of Education)
 * `NACCBMI` (Body Mass Index)
 
