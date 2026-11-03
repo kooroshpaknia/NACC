@@ -23,7 +23,7 @@ For detailed information regarding the official data source, required files, acq
 
 ### D. Demographics & Baseline Characteristics
 * `SEX`
-* `AGE`
+* `NACCAGE`
 * `EDUC` (Years of Education)
 * `NACCBMI` (Body Mass Index)
 
@@ -54,7 +54,7 @@ For detailed information regarding the official data source, required files, acq
 
 ## 5. Main Variables and Measurement Scales
 * **Identifier:** `NACCID`
-* **Continuous Quantitative:** `CDRSUM` (Primary Response), `AGE`, `NACCBMI`, `LH_ENTORHINAL_GVOL`, `RH_ENTORHINAL_GVOL`, `LH_PARAHIPPOCAMPAL_GVOL`, `RH_PARAHIPPOCAMPAL_GVOL`, `LH_ENTORHINAL_AVGTH`, `RH_ENTORHINAL_AVGTH`, `LH_PARAHIPPOCAMPAL_AVGTH`, `RH_PARAHIPPOCAMPAL_AVGTH`.
+* **Continuous Quantitative:** `CDRSUM` (Primary Response), `NACCAGE`, `NACCBMI`, `LH_ENTORHINAL_GVOL`, `RH_ENTORHINAL_GVOL`, `LH_PARAHIPPOCAMPAL_GVOL`, `RH_PARAHIPPOCAMPAL_GVOL`, `LH_ENTORHINAL_AVGTH`, `RH_ENTORHINAL_AVGTH`, `LH_PARAHIPPOCAMPAL_AVGTH`, `RH_PARAHIPPOCAMPAL_AVGTH`.
 * **Discrete Quantitative:** `EDUC`, `NACCGDS`, `SMOKYRS`.
 * **Ordinal:** `NACCUDSD`, `CDRGLOB`.
 * **Nominal:** `NACCAPOE`, `HYPERTEN`, `DIABETES`, `DIABTYPE`, `CBSTROKE`.
@@ -65,7 +65,7 @@ Since the research question is both relational (assessing impact) and comparativ
 
 * **Primary Response (Dependent) Variable:** `CDRSUM` (acting as the quantitative measure of dementia severity).
 * **Explanatory (Independent/Predictor) Variables:** 
-  * *Continuous Predictors:* `AGE`, `NACCBMI`, `SMOKYRS`, and all neuroimaging metrics (`*_GVOL`, `*_AVGTH`).
+  * *Continuous Predictors:* `NACCAGE`, `NACCBMI`, `SMOKYRS`, and all neuroimaging metrics (`*_GVOL`, `*_AVGTH`).
   * *Categorical Predictors (Secondary Grouping Variables):* `HYPERTEN`, `DIABETES`, `DIABTYPE`, `CBSTROKE`, `NACCGDS`, `TOBAC100`, `NACCAPOE`. These act as covariates in regression models and grouping variables during Exploratory Data Analysis (EDA).
 * **Primary Grouping / Comparative Variables:** 
   * `SEX`: The explicit grouping variable to evaluate statistical differences in dementia severity between males and females.
