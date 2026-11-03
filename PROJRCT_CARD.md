@@ -18,9 +18,10 @@ For detailed information regarding the official data source, required files, acq
 * `NACCID` (Participant ID)
 
 ### B. Primary Response (Dependent) Variable
-* `CDRSUM` (Clinical Dementia Rating - Sum of Boxes)
+* `MOCATOTS`  
 
 ### C. Cognitive & Clinical Status
+* `CDRSUM` (Clinical Dementia Rating - Sum of Boxes)
 * `NACCUDSD` (Cognitive Diagnosis)
 * `CDRGLOB` (Global CDR Score)
 * `NACCGDS` (Geriatric Depression Scale)
@@ -58,7 +59,7 @@ For detailed information regarding the official data source, required files, acq
 
 ## 5. Main Variables and Measurement Scales
 * **Identifier:** `NACCID`
-* **Continuous Quantitative:** `CDRSUM` (Primary Response), `NACCAGE`, `NACCBMI`, `LH_ENTORHINAL_GVOL`, `RH_ENTORHINAL_GVOL`, `LH_PARAHIPPOCAMPAL_GVOL`, `RH_PARAHIPPOCAMPAL_GVOL`, `LH_ENTORHINAL_AVGTH`, `RH_ENTORHINAL_AVGTH`, `LH_PARAHIPPOCAMPAL_AVGTH`, `RH_PARAHIPPOCAMPAL_AVGTH`.
+* **Continuous Quantitative:** `MOCATOTS` (Primary Response), `CDRSUM` `NACCAGE`, `NACCBMI`, `LH_ENTORHINAL_GVOL`, `RH_ENTORHINAL_GVOL`, `LH_PARAHIPPOCAMPAL_GVOL`, `RH_PARAHIPPOCAMPAL_GVOL`, `LH_ENTORHINAL_AVGTH`, `RH_ENTORHINAL_AVGTH`, `LH_PARAHIPPOCAMPAL_AVGTH`, `RH_PARAHIPPOCAMPAL_AVGTH`.
 * **Discrete Quantitative:** `EDUC`, `NACCGDS`, `SMOKYRS`.
 * **Ordinal:** `NACCUDSD`, `CDRGLOB`.
 * **Nominal:** `NACCAPOE`, `HYPERTEN`, `DIABETES`, `DIABTYPE`, `CBSTROKE`.
