@@ -1,7 +1,11 @@
 # Investigating the Impact of Demographic, Clinical, and Structural Brain Indices (MRI) on Dementia Severity and Cognitive Decline in a Clinical Sample
 
 ## 1. Main Statistical Question
-"What is the impact of demographic factors, clinical history, and structural brain indices (MRI) on the severity of dementia, and is there a significant difference in disease severity between men and women?"
+“In the NACC clinical cohort, how are demographic characteristics (NACCAGE,
+SEX, EDUC), vascular and clinical risk factors (HYPERTEN, DIABETES, NACCBMI,
+NACCGDS, smoking history), and medial temporal lobe MRI biomarkers (bilateral Entorhinal and Parahippocampal cortical volumes and thickness) associated with general cognitive capability (MOCATOTS)? Furthermore, does a multimodal model integrating structural MRI improve explanatory power over a
+clinical UDS-only model, and how do these metrics vary between men and
+women?”
 
 ## 2. Dataset and Subset Selection
 For detailed information regarding the official data source, required files, acquisition date, and the dataset reconstruction pipeline, please refer to the [`data/README.md`](data/README.md) documentation.
